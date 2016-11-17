@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+
+import(mvtnorm)
+import(Matrix)
+import(boot)
+importFrom("grDevices", "dev.new")
+importFrom("stats", "as.ts", "coef", "printCoefmat", "quantile","runif", "sd", "ts.plot")
+S3method(print, NegBinBetaBinreg)
+S3method(summary, NegBinBetaBinreg)
+S3method(print, NegBinBetaBinreg)
+S3method(print, summary.NegBinBetaBinreg)
